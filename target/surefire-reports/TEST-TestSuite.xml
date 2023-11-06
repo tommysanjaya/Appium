@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.486" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\target\test-classes;C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\target\classes;C:\Users\tommy\.m2\repository\io\appium\java-client\8.6.0\java-client-8.6.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\tommy\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\tommy\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\tommy\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\tommy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\tommy\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\tommy\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\tommy\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\tommy\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\tommy\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\tommy\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\tommy\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\tommy\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\tommy\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\tommy\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\tommy\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\tommy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\tommy\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\tommy\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\tommy\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\tommy\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\tommy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\tommy\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\tommy\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\tommy\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\tommy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\Users\tommy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\tommy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\tommy\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\tommy\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\tommy\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\tommy\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\tommy\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\tommy\AppData\Local\Temp\surefire6219885918228105275\surefirebooter-20231106222212250_3.jar C:\Users\tommy\AppData\Local\Temp\surefire6219885918228105275 2023-11-06T22-22-12_137-jvmRun1 surefire-20231106222212250_1tmp surefire_0-20231106222212250_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\target\test-classes;C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\target\classes;C:\Users\tommy\.m2\repository\io\appium\java-client\8.6.0\java-client-8.6.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\tommy\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\tommy\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\tommy\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\tommy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\tommy\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\tommy\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\tommy\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\tommy\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\tommy\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\tommy\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\tommy\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\tommy\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\tommy\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\tommy\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\tommy\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\tommy\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\tommy\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\tommy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\tommy\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\tommy\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\tommy\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\tommy\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\tommy\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\tommy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\tommy\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\tommy\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\tommy\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\tommy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\Users\tommy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\tommy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\tommy\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\tommy\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\tommy\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\tommy\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\tommy\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tommy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\tommy\AppData\Local\Temp\surefire6219885918228105275\surefirebooter-20231106222212250_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="user.name" value="tommy"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\tommy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tommy\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\tommy\AppData\Local\Android\Sdk\tools\bin;C:\Users\tommy\AppData\Local\Android\Sdk\tools;C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Users\tommy\AppData\Local\Microsoft\WindowsApps;;C:\Users\tommy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tommy\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="homeErrorValidation" classname="org.Appium.errorValidation" time="3.543">
+    <system-out><![CDATA[null
+Server started at :http://0.0.0.0:4723/
+Tried to attach logging to file 'C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\AppiumLog.txt' but an error occurred: EBUSY: resource busy or locked, unlink 'C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\AppiumLog.txt'
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { localTimezone: &amp#27;[33mtrue&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on http://0.0.0.0:4723
+&amp#27;[35m[Appium]&amp#27;[39m You can provide the following URLS in your client code to connect to this server:
+&amp#27;[35m[Appium]&amp#27;[39m 	http://192.168.0.112:4723/
+&amp#27;[35m[Appium]&amp#27;[39m 	http://127.0.0.1:4723/ (only accessible from the same host)
+&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
+&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.29.8 (automationName 'UiAutomator2')
+&amp#27;[35m[Appium]&amp#27;[39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 39&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: f487f898-d7bd-42cf-8f73-df72a72b9a1a
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","appium:automationName":"UIAutomator2","appium:chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","appium:deviceName":"AppiumDeviceTest","platformName":"ANDROID"}}}&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","appium:automationName":"UIAutomator2","appium:chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","appium:deviceName":"AppiumDeviceTest","platformName":"ANDROID"}}]
+[debug] &amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Event 'newSessionRequested' logged at 1699284138690 (22:22:18 GMT+0700 (Western Indonesia Time))
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'ANDROID'
+&amp#27;[35m[Appium]&amp#27;[39m The 'uiautomator2' driver was installed and matched caps.
+&amp#27;[35m[Appium]&amp#27;[39m Will require it at C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Appium v2.0.1 creating new AndroidUiautomator2Driver (v2.29.8) session
+&amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+&amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Appium's BaseDriver version is 9.3.20
+&amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m AndroidUiautomator2Driver's BaseDriver version is 9.3.20
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m Creating session with W3C capabilities: {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m   "alwaysMatch": {
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m     "platformName": "ANDROID",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m     "appium:app": "C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m     "appium:automationName": "UIAutomator2",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m     "appium:chromedriverExecutable": "C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe",
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m     "appium:deviceName": "AppiumDeviceTest"
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m   },
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m   "firstMatch": [
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m     {}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m   ]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m }
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m The following capabilities were provided, but are not recognized by Appium:
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4]&amp#27;[0m   deviceName
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Session created with session id: 82a5d3cc-8b28-44df-beb0-c153fda81478
+&amp#27;[38;5;48m[BaseDriver]&amp#27;[0m Using local app 'C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\src\test\java\org\Appium\resources\General-Store.apk'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Checking whether app is actually present
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Found 2 'build-tools' folders under 'C:\Users\tommy\AppData\Local\Android\Sdk' (newest first):
+&amp#27;[38;5;64m[ADB]&amp#27;[0m     C:\Users\tommy\AppData\Local\Android\Sdk\build-tools\34.0.0
+&amp#27;[38;5;64m[ADB]&amp#27;[0m     C:\Users\tommy\AppData\Local\Android\Sdk\build-tools\33.0.1
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Retrieving device list
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Trying to find connected Android devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting connected devices
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Using device: emulator-5554
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'adb.exe' from 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Setting device id to emulator-5554
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Current device property 'ro.build.version.sdk': 34
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Getting device platform version
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Current device property 'ro.build.version.release': 14
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Device API level: 34
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Relaxing hidden api policy
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] &amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Parsing package and activity from app manifest
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Package name: 'com.androidsample.generalstore'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Main activity name: 'com.androidsample.generalstore.SplashActivity'
+[debug] &amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Parsed package and activity are: com.androidsample.generalstore/com.androidsample.generalstore.SplashActivity
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[debug] &amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Pushing settings apk to device...
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.1.2' >= '5.1.2')
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m There is no need to install/upgrade 'C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] &amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[38;5;96m[Logcat]&amp#27;[0m Starting logs capture with command: C:\\Users\\tommy\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Forwarding system: 8200 to device: 6790
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Checking app cert for C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.5.apk
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Checking app cert for C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Using 'apksigner.jar' from 'C:\Users\tommy\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\tommy\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\tommy\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\tommy\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\tommy\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.5.apk
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m 
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 'C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m 
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m sha256 hash did match for 'appium-uiautomator2-server-v5.12.5.apk'
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 'C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.5.apk' is signed with the default certificate
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.12.5' >= '5.12.5')
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\tommy\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.5.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"C:\\Users\\tommy\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Server packages are not going to be (re)installed
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+&amp#27;[38;5;64m[ADB]&amp#27;[0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Checking app cert for C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\src\test\java\org\Appium\resources\General-Store.apk
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\tommy\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-256 digest: f5f5931c019be6bff8a26255f76ae9ef8a8e631d2a702ec10e91110231549eef
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate SHA-1 digest: b250161db8b5d0a1bd39154c9fd749bdad79c1a3
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Signer #1 certificate MD5 digest: 7a5550323d84472ca25a0861c63e0a6c
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m 
+&amp#27;[38;5;64m[ADB]&amp#27;[0m 'C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\src\test\java\org\Appium\resources\General-Store.apk' is signed with a non-default certificate
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting package info for 'com.androidsample.generalstore'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.androidsample.generalstore'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m The version name of the installed 'com.androidsample.generalstore' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m There is no need to install/upgrade 'C:\Users\tommy\eclipse-workspace\AppiumFrameworkDesign\src\test\java\org\Appium\resources\General-Store.apk'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Performing fast reset on 'com.androidsample.generalstore'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting install status for com.androidsample.generalstore
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path com.androidsample.generalstore'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m 'com.androidsample.generalstore' is installed
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.androidsample.generalstore'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.androidsample.generalstore'
+[debug] &amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Performed fast reset on the installed 'com.androidsample.generalstore' application (stop and clear)
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m No obsolete sessions have been detected (socket hang up)
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Starting UIAutomator2 server 5.12.5
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Using UIAutomator2 server from 'C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.5.apk' and test from 'C:\Users\tommy\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m socket hang up
+[debug] &amp#27;[38;5;112m[Instrumentation]&amp#27;[0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m socket hang up
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m The initialization of the instrumentation process took 2143ms
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","automationName":"UIAutomator2","chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","deviceName":"AppiumDeviceTest"},"platformName":"ANDROID","app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","automationName":"UIAutomator2","chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.androidsample.generalstore"}],"alwaysMatch":{}}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","automationName":"UIAutomator2","chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","deviceName":"AppiumDeviceTest"},"platformName":"ANDROID","app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","automationName":"UIAutomator2","chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.androidsample.generalstore"}],"alwaysMatch":{}},"sessionId":"5b53da50-5b3e-447b-86b2-...
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/appium/device/info] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"androidId":"71cf0f3630c538fa","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabil...
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+&amp#27;[38;5;80m[AndroidDriver]&amp#27;[0m Screen already unlocked, doing nothing
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Starting 'com.androidsample.generalstore/com.androidsample.generalstore.SplashActivity and waiting for 'com.androidsample.generalstore/com.androidsample.generalstore.SplashActivity'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.androidsample.generalstore/com.androidsample.generalstore.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Waiting up to 20000ms for activity matching pkg: 'com.androidsample.generalstore' and activity: 'com.androidsample.generalstore.SplashActivity' to be focused
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Possible activities, to be checked: 'com.androidsample.generalstore.SplashActivity', 'com.androidsample.generalstore.com.androidsample.generalstore.SplashActivity'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting focused package and activity
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Found package: 'com.androidsample.generalstore' and fully qualified activity name : 'com.androidsample.generalstore.SplashActivity'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/appium/device/pixel_ratio] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":2.75}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/appium/device/system_bars] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"statusBar":66}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/window/current/size] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"height":2154,"width":1080}}
+&amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m New AndroidUiautomator2Driver session created successfully, session 82a5d3cc-8b28-44df-beb0-c153fda81478 added to master session list
+[debug] &amp#27;[38;5;16m[AppiumDriver@c4be]&amp#27;[0m Event 'newSessionStarted' logged at 1699284144146 (22:22:24 GMT+0700 (Western Indonesia Time))
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Cached the protocol value 'W3C' for the new session 82a5d3cc-8b28-44df-beb0-c153fda81478
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"ANDROID","app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","automationName":"UIAutomator2","chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","deviceName":"AppiumDeviceTest"},"platformName":"ANDROID","app":"C:\\Users\\tommy\\eclipse-workspace\\AppiumFrameworkDesign\\src\\test\\java\\org\\Appium\\resources\\General-Store.apk","automationName":"UIAutomator2","chromedriverExecutable":"C:\\Users\\tommy\\eclipse-workspace\\chromedriver.exe","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.androidsample.generalstore","deviceApiLevel":34,"platformVersion":"14","deviceScreenSize":"1080x2220","deviceScreenDensity":440,"deviceModel":"sdk_gphone64_x86_...
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m5458 ms - 1216&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/timeouts&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"implicit":5000}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m W3C timeout argument: {"implicit":5000}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Set implicit wait to 5000ms
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.timeouts() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/timeouts &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 14&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/appium/device/start_activity&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"appPackage":"com.androidsample.generalstore","appActivity":"com.androidsample.generalstore.MainActivity","appWaitPackage":"","appWaitActivity":"","dontStopAppOnReset":false,"intentAction":"","intentCategory":"","intentFlags":"","optionalIntentArguments":""}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.startActivity() with args: ["com.androidsample.generalstore","com.androidsample.generalstore.MainActivity","","","","","","",false,null,null,"82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Starting package 'com.androidsample.generalstore' and activity 'com.androidsample.generalstore.MainActivity'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.androidsample.generalstore/com.androidsample.generalstore.MainActivity -S'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Waiting up to 20000ms for activity matching pkg: 'com.androidsample.generalstore' and activity: 'com.androidsample.generalstore.MainActivity' to be focused
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Possible activities, to be checked: 'com.androidsample.generalstore.MainActivity', 'com.androidsample.generalstore.com.androidsample.generalstore.MainActivity'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Getting focused package and activity
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Running 'C:\Users\tommy\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+[debug] &amp#27;[38;5;64m[ADB]&amp#27;[0m Found package: 'com.androidsample.generalstore' and fully qualified activity name : 'com.androidsample.generalstore.MainActivity'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.startActivity() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/appium/device/start_activity &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m907 ms - 14&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3 ms - 22&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"id","value":"com.androidsample.generalstore:id/radioMale"}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["id","com.androidsample.generalstore:id/radioMale","82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Waiting up to 5000 ms for condition
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element] with body: {"strategy":"id","selector":"com.androidsample.generalstore:id/radioMale","context":"","multiple":false}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"ELEMENT":"00000000-0000-164d-ffff-ffff00000016","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-164d-ffff-ffff00000016"}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-164d-ffff-ffff00000016","ELEMENT":"00000000-0000-164d-ffff-ffff00000016"}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m481 ms - 137&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/00000000-0000-164d-ffff-ffff00000016/click&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"id":"00000000-0000-164d-ffff-ffff00000016"}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.click() with args: ["00000000-0000-164d-ffff-ffff00000016","82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/element/00000000-0000-164d-ffff-ffff00000016/click' to command name 'click'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [POST /element/00000000-0000-164d-ffff-ffff00000016/click] to [POST http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element/00000000-0000-164d-ffff-ffff00000016/click] with body: {"element":"00000000-0000-164d-ffff-ffff00000016"}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":null}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.click() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/00000000-0000-164d-ffff-ffff00000016/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m45 ms - 14&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m2 ms - 22&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"id","value":"com.androidsample.generalstore:id/btnLetsShop"}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["id","com.androidsample.generalstore:id/btnLetsShop","82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Waiting up to 5000 ms for condition
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element] with body: {"strategy":"id","selector":"com.androidsample.generalstore:id/btnLetsShop","context":"","multiple":false}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"ELEMENT":"00000000-0000-164d-ffff-ffff00000018","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-164d-ffff-ffff00000018"}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-164d-ffff-ffff00000018","ELEMENT":"00000000-0000-164d-ffff-ffff00000018"}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m510 ms - 137&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/00000000-0000-164d-ffff-ffff00000018/click&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"id":"00000000-0000-164d-ffff-ffff00000018"}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.click() with args: ["00000000-0000-164d-ffff-ffff00000018","82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/element/00000000-0000-164d-ffff-ffff00000018/click' to command name 'click'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [POST /element/00000000-0000-164d-ffff-ffff00000018/click] to [POST http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element/00000000-0000-164d-ffff-ffff00000018/click] with body: {"element":"00000000-0000-164d-ffff-ffff00000018"}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":null}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.click() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/00000000-0000-164d-ffff-ffff00000018/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m58 ms - 14&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m2 ms - 22&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"xpath","value":"//android.widget.Toast[@text='Please enter your name']"}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.Toast[@text='Please enter your name']","82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Waiting up to 5000 ms for condition
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element] with body: {"strategy":"xpath","selector":"//android.widget.Toast[@text='Please enter your name']","context":"","multiple":false}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"ELEMENT":"13614688-3409-497e-83e7-638d3d10618f","element-6066-11e4-a52e-4f735466cecf":"13614688-3409-497e-83e7-638d3d10618f"}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"13614688-3409-497e-83e7-638d3d10618f","ELEMENT":"13614688-3409-497e-83e7-638d3d10618f"}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m597 ms - 137&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/13614688-3409-497e-83e7-638d3d10618f/text&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/13614688-3409-497e-83e7-638d3d10618f/text' to command name 'getText'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/13614688-3409-497e-83e7-638d3d10618f/text] to [GET http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element/13614688-3409-497e-83e7-638d3d10618f/text] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":"Please enter your name"}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Replacing sessionId 5b53da50-5b3e-447b-86b2-658d54055e9f with 82a5d3cc-8b28-44df-beb0-c153fda81478
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/13614688-3409-497e-83e7-638d3d10618f/text &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m50 ms - 85&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m2 ms - 22&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{"using":"xpath","value":"//android.widget.Toast[@text='Please enter your name']"}&amp#27;[39m
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.Toast[@text='Please enter your name']","82a5d3cc-8b28-44df-beb0-c153fda81478"]
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Waiting up to 5000 ms for condition
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element] with body: {"strategy":"xpath","selector":"//android.widget.Toast[@text='Please enter your name']","context":"","multiple":false}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":{"ELEMENT":"cafc6eb8-dec7-42e9-8446-5e6fd4770269","element-6066-11e4-a52e-4f735466cecf":"cafc6eb8-dec7-42e9-8446-5e6fd4770269"}}
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"cafc6eb8-dec7-42e9-8446-5e6fd4770269","ELEMENT":"cafc6eb8-dec7-42e9-8446-5e6fd4770269"}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- POST /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m63 ms - 137&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/cafc6eb8-dec7-42e9-8446-5e6fd4770269/text&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Matched '/session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/cafc6eb8-dec7-42e9-8446-5e6fd4770269/text' to command name 'getText'
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Proxying [GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/cafc6eb8-dec7-42e9-8446-5e6fd4770269/text] to [GET http://127.0.0.1:8200/session/5b53da50-5b3e-447b-86b2-658d54055e9f/element/cafc6eb8-dec7-42e9-8446-5e6fd4770269/text] with no body
+[debug] &amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Got response with status 200: {"sessionId":"5b53da50-5b3e-447b-86b2-658d54055e9f","value":"Please enter your name"}
+&amp#27;[38;5;32m[AndroidUiautomator2Driver@89a4 (82a5d3cc)]&amp#27;[0m Replacing sessionId 5b53da50-5b3e-447b-86b2-658d54055e9f with 82a5d3cc-8b28-44df-beb0-c153fda81478
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /session/82a5d3cc-8b28-44df-beb0-c153fda81478/element/cafc6eb8-dec7-42e9-8446-5e6fd4770269/text &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m41 ms - 85&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

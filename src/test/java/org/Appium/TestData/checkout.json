@@ -1,0 +1,12 @@
+[
+    {
+        "name":"Tommy Test Data",
+        "gender":"male",
+        "country":"Argentina"
+    },
+    {
+        "name":"Test Data Driven Json",
+        "gender":"female",
+        "country":"Australia"
+    }
+]
