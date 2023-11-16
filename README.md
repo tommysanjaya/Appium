@@ -47,6 +47,7 @@ Tech Stack Used for this Mobile Automation:
 2.	In the class, add Extends BaseTest. To inherit all the setup we need to run the Test Case
 3.	inside the class add @Test annotation
 4.	Start to Create the Automation Script (driver.findElementBy)
+5.	To run the test case, Click Run As -> TestNG Test
 
 # Glossary
 1.	Android Studio: IDE that provides Android Virtual Device (will be used demonstrate the Automation)
