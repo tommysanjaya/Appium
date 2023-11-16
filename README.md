@@ -8,7 +8,7 @@ Tech Stack Used for this Mobile Automation:
 - Supporting Application: AppiumInspector, AndroidStudio
 
 # Initial Setup:
-1.	Install Java, Android Studio, NodeJs
+1.	Install Java, Android Studio, Node
 2.	Setup Java, Android SDK, Node Home path in Windows System (Environment Variable)
 3.	Setup Android Virtual Device on Android Studio
 4.	Install Appium via CMD (npm install -g Appium)
