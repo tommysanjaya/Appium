@@ -17,10 +17,11 @@ Tech Stack Used for this Mobile Automation:
    
 # Pre-Automation
 1.	Create Maven Project (maven-archetype-quickstart)
-2.	On Eclipse Add Maven Repository / Dependencies to pom.xml file:
+2.	On Eclipse, Add Maven Repository / Dependencies to pom.xml file:
     - Java Client (io.appium)
     - TestNG
     - Selenium Support
+3. On Eclipse, Install "TestNG for Eclipse" Extention (Open Help -> Eclipse Marketplace -> Search TestNG for Eclipse -> Click Install)
 4.	Install via CMD: 
     - For Android: uiautomator2 -> “appium driver install uiautomator2”
     - For iOS: xcuitest -> “appium driver install xcuitest”
