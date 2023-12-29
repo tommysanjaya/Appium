@@ -7,7 +7,7 @@ Tech Stack Used for this Mobile Automation:
 - Language: Java
 - Supporting Application: AppiumInspector, AndroidStudio
 
-# Initial Setup:
+## Initial Setup:
 1.	Install Java, Android Studio, Node
 2.	Setup Java, Android SDK, Node Home path in Windows System (Environment Variable)
 3.	Setup Android Virtual Device on Android Studio
@@ -15,7 +15,7 @@ Tech Stack Used for this Mobile Automation:
 5.	Install Eclipse
 6.	Install Appium Inspector
    
-# Pre-Automation
+## Pre-Automation
 1.	Create Maven Project (maven-archetype-quickstart)
 2.	On Eclipse, Add Maven Repository / Dependencies to pom.xml file:
     - Java Client (io.appium)
@@ -43,14 +43,14 @@ Tech Stack Used for this Mobile Automation:
     - Set automationName (UiAutomator2)
 12.	Click Start to Start Inspecting Element on Android Application
 
-# Start your Automation:
+## Start your Automation:
 1.	Create a Java Class in src/test/java -> this will be our test case
 2.	In the class, add Extends BaseTest. To inherit all the setup we need to run the Test Case
 3.	inside the class add @Test annotation
 4.	Start to Create the Automation Script (driver.findElementBy)
 5.	To run the test case, Click Run As -> TestNG Test
 
-# Glossary
+## Glossary
 1.	Android Studio: IDE that provides Android Virtual Device (will be used demonstrate the Automation)
 2.	Appium Inspector: To inspect element for Android Application
 3.	Appium: Open-Source automation tools
@@ -63,7 +63,41 @@ Tech Stack Used for this Mobile Automation:
 10.	Uiautomator2: Framework for Android Mobile Automation
 11.	Xcuitest: Framework for iOS Mobile Automation
 
-# Explanation for Each Folder/Package/File:
+## Explanation for Each Folder/Package/File:
+```
+Project-Name
+	|
+	|_src/main/java
+	|	|_org.Appium.pageObject.android
+	|	|	|_cartPage.java
+	|	|	|_formPage.java
+	|	|	|_pageCatalogue.java
+	|	|_org.Appium.resource
+	|	|	|_data.properties
+	|	|_org.Appium.utils
+	|		|_AndroidActions.java
+	|		|_AppiumUtils.java
+	|_src/test/java
+	|	|_org.Appium
+	|	|	|_checkout.java
+	|	|	|_checkoutExperimen.java
+	|	|	|_errorValidation.java
+	|	|_org.Appium.resources
+	|	|	|_General-Store.apk
+	|	|_org.Appium.TestData
+	|	|	|_checkout.json
+	|	|_org.Appium.TestUtils
+	|	|	|_BaseTest.java
+	|	|	|_ExtentReporterNG.java
+	|	|	|_Listener.java
+	|_reports
+	|	|_index.html
+	|_testNGSuites
+	|	|_testng_smoke.xml
+	|	|_testng.xml
+	|_test-output
+	|_pom.xml
+```
 1.	src/main/java: Folder to put all your Main Source Code
     - org.Appium.pageObject.android: Package to put all Object/Element per page
     - org.Appium.resource: Package to put resources (ipAddress, port, DeviceName, etc)
